@@ -41,9 +41,10 @@ public class Main {
 
         double day30 = 0;
         for (int i = 0; i < arr.length; i++) {
-            sum += arr[i] / 30;
-            day30 = sum / 30;
+            day30 += arr[i];
         }
+            day30 = day30/ arr.length;
+
 
         System.out.println("Средняя сумма трат за месяц составила " + day30 + " рублей");
 
