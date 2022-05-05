@@ -53,7 +53,7 @@ public class Main {
 
 
         for (int i = reverseFullName.length - 1; i >= 0; i--) {
-            if (i != 0)
+
                 System.out.print(reverseFullName[i]);
 
         }
